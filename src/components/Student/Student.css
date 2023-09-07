@@ -1,0 +1,83 @@
+.Student {
+    background-color: #222324;
+}
+
+.oneStudent {
+    display: flex;
+    justify-content: space-between;
+    background-color: #292A2B;
+    cursor: pointer;
+    padding: 12px 0;
+    max-height: 70px;
+}
+
+.studentName {
+    display: flex;
+    align-items: center;
+    column-gap: 63px;
+    font-size: 18px;
+    color: #F7F7F7;
+    padding: 10px 38px;
+    flex-grow: 1;
+}
+
+.studentName div:nth-of-type(2) {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+}
+
+.studentButtons {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.oneStudent__desc {
+    display: flex;
+    background-color: #222324;
+    width: 100%;
+    overflow: hidden;
+}
+
+.oneStudent__desc--item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 18px;
+    flex-grow: 1;
+    border-right: .1em solid #292A2B;
+    min-width: 100px;
+    padding: 17px 10px;
+
+}
+.oneStudent__desc--item:nth-child(7) {
+    min-width: 140px;
+}
+.oneStudent__desc--item p {
+    font-size: 12px;
+    letter-spacing: -.2px;
+    color: #CFCFCF;
+    place-self: flex-start;
+}
+
+.oneStudent__desc--item p:nth-child(2){
+    font-size: 15px;
+    text-align: left;
+}
+
+.reservation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.reservation span:first-child{
+    font-size: 14px;
+    color: #CFCFCF;
+}
+.reservation span:last-child{
+    font-size: 16px;
+    color: #F7F7F7;
+    letter-spacing: 1.6px;
+}

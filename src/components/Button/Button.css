@@ -1,0 +1,15 @@
+.Button {
+    /*margin: 16px 0;*/
+    padding: 6px 10px;
+    border: none;
+    font-size: 16px;
+    line-height: 27px;
+    background-color: #E02735;
+    color: #F7F7F7;
+    cursor: pointer;
+    transition: .3s;
+}
+.Button:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em #E02735;
+    transform: translateY(-0.25em);
+}

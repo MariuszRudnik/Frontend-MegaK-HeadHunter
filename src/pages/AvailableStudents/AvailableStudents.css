@@ -1,0 +1,20 @@
+.AvailableStudents {
+    max-width: 1430px;
+    margin: 0 auto;
+    background-color: #292A2B;
+    padding-bottom: 32px;
+}
+
+.AvailableStudents hr {
+    margin: 0 20px;
+    border: .1em solid #222224;
+    background-color: #222224;
+}
+
+.students {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    margin: 10px 20px;
+    background-color: #1E1E1F;
+}

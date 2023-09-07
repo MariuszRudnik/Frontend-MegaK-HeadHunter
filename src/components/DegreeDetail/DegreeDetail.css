@@ -1,0 +1,38 @@
+.DegreeDetails {
+    display: flex;
+    width: 163.5px;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    row-gap: 24px;
+}
+
+.DegreeStars {
+    display: flex;
+    align-items: center;
+}
+
+.MaxPoints {
+    color: var(--max-degree-font-color);
+    font-weight: normal;
+    padding-right: 12.5px;
+}
+
+.Points {
+    font-size: 18px;
+    color: var(--default-font-color);
+    font-weight: bold;
+}
+
+p.Title {
+    font-size: 14px;
+    background-color: var(--fields-bgcolor);
+}
+
+svg.StarGrey {
+    color: var(--coursant-cv-unselected-star-color);
+}
+
+svg.StarRed {
+    color: var(--coursant-cv-selected-star-color);
+}

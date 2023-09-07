@@ -1,0 +1,81 @@
+.t-login{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  min-height: 100vh;
+  width: 100%;
+  padding: 20px;
+  &__div{
+   display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+  }
+  &__alignment{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin: 15px;
+  }
+  &__wrap{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__images{
+    display: flex;
+    justify-content: center;
+  }
+  &__img{
+    width: 124px;
+    height: 76px;
+  }
+  &__p{
+
+    font: normal normal medium 14px/24px Catamaran;
+    letter-spacing: 0.7px;
+    color: #F7F7F7;
+    opacity: 1;
+    &--right{
+      text-align: right;
+    }
+  }
+
+  &__message {
+    font: normal normal medium 14px/24px Catamaran;
+    background-color: $reedMain;
+    padding: 20px;
+    color: white;
+    margin: 10px 0;
+
+    &--close{
+      display: block;
+    }
+  }
+  &__closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  &__closebtn:hover {
+    color: black;
+  }
+
+  &__text-register{
+    color: #F7F7F7;
+    opacity: 1;
+
+    &--strong{
+      font-weight: bold;
+      text-decoration: underline;
+    }
+  }
+
+}
+
+

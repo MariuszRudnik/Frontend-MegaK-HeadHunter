@@ -1,0 +1,15 @@
+.CvDetails {
+    width: 1176px;
+    margin-left: 4px;
+}
+
+.Degree {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    max-width: 956px;
+}
+
+.WorkExpectation {
+    display: flex;
+}

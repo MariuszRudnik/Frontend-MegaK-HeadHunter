@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;600&display=swap');
+:root {
+
+  /* Colors: */
+  --links-color: #0B8BD4;
+  --coursant-cv-github-icon: #0B8BD4;
+  --coursant-cv-clip-icon: #0B8BD4;
+  --button-bgcolor: #E02735;
+  --coursant-cv-selected-star-color: #E02735;
+  --coursant-cv-unselected-star-color: #4D4D4D;
+  --coursant-cv-phone-icon-color: #4D4D4D;
+  --coursant-cv-mail-icon-color: #4D4D4D;
+  --coursant-cv-about-color: #4D4D4D;
+  --default-font-color: #F7F7F7;
+  --fields-font-color: #CFCFCF;
+  --fields-bgcolor: #222324;
+  --header-bgcolor: #1E1E1F;
+  --max-degree-font-color: #9E9E9E;
+  --main-bgcolor: #222224;
+  --section-bgcolor: #292A2B;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Catamaran', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+

@@ -1,0 +1,23 @@
+.CvLabelWithLinks {
+    padding: 18px 0;
+    color: var(--default-font-color);
+    width: 1176px;
+}
+
+.LabelTitle {
+    background-color: var(--section-bgcolor);
+    margin: 0;
+    height: 60px;
+    line-height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 26px;
+}
+
+.CvLabelWithLinks a {
+    display: block;
+}
+
+.CvLabelWithLinks p {
+    padding-left: 26px;
+}

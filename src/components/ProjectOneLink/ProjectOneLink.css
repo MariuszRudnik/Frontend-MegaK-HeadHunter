@@ -1,0 +1,17 @@
+.projectUrl {
+    color: var(--links-color);
+    padding-left: 26px
+}
+
+.project-links a {
+    display: flex;
+    column-gap: 12px;
+    align-items: center;
+}
+
+.clip {
+    transform: rotate(270deg);
+    height: 24px;
+    color: var(--coursant-cv-clip-icon);
+}
+

@@ -1,0 +1,9 @@
+.u-flex{
+  display: flex;
+
+  &__column{
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+}

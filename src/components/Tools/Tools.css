@@ -1,0 +1,39 @@
+.Tools {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1430px;
+    padding: 15px 20px;
+}
+
+.Tools input {
+    width: 365px;
+    background-image: url("../../assets/img/magnifier.svg");
+    background-repeat: no-repeat;
+    background-position: 10px 50%;
+    background-color: #1E1E1F;
+    border: none;
+    padding: 6px 40px;
+    font-size: 16px;
+}
+
+.Tools input[placeholder] {
+    color: #666666;
+}
+
+.Tools button {
+    display: flex;
+    align-items: center;
+    column-gap: 6px;
+    padding: 12px 20px;
+    border: none;
+    color: #F7F7F7;
+    background-color: #1E1E1F;
+    cursor: pointer;
+    font-size: 16px;
+    transition: .3s;
+}
+
+.Tools button:hover {
+    box-shadow: inset 0 0 0 2em #E02735;
+}
+

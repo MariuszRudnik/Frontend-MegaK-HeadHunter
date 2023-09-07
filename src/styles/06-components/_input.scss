@@ -1,0 +1,28 @@
+.c-input{
+  width: 350px;
+  height: 40px;
+  background: #292A2B 0% 0% no-repeat padding-box;
+  opacity: 1;
+  color: #7E7E7E;
+  border: none;
+  margin: 10px;
+  border-radius: 2px;
+  padding: 6.5px 17px;
+
+  &--border{
+    font-size: 18px;
+    box-shadow: #7E7E7E 1px 1px 1px;
+  }
+  &__array{
+    width: 280px;
+  }
+  &__bio{
+    max-width: 350px;
+    min-height: 150px;
+    font-size: 18px;
+  }
+  &__maxWidth{
+    max-width: 350px;
+  }
+
+}

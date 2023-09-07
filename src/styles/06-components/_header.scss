@@ -1,0 +1,35 @@
+.header{
+  &__menu{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+}
+.header-menu{
+  &__list{
+    top: 50px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+  }
+  &__item{
+    background-color: #1E1E1F;
+    border: 2px solid $backgroundGrey ;
+    padding: 20px;
+    height: 30px;
+    width: 240px;
+    transition: 0.5s;
+    cursor: pointer;
+
+    &:hover{
+      background-color: $redX2;
+    }
+  }
+  &__name{
+    color: red;
+  }
+
+}
+.link-decoration{
+  text-decoration: none;
+}

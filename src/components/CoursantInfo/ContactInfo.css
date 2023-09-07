@@ -1,0 +1,77 @@
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    height: 718px;
+    padding: 25px 0;
+    background-color: var(--section-bgcolor);
+}
+
+.Cv-user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Cv-user p:nth-child(1) {
+    font-size: 24px;
+    line-height: 39px;
+    font-weight: 600;
+    color: #F7F7F7;
+}
+
+.Cv-user p:nth-child(2) {
+    display: flex;
+    align-items: center;
+    column-gap: 9px;
+    color: #0B8BD4;
+}
+
+.Cv-contact {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    width: 100%;
+    padding-left: 25px;
+}
+
+.Cv-contact p {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+}
+
+.Cv-contact p span {
+    font-size: 16px;
+    line-height: 27px;
+    color: #F7F7F7;
+}
+
+.Cv-about {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+    padding-right: 28px;
+}
+
+.Cv-about p:nth-child(1) {
+    font-size: 16px;
+    line-height: 27px;
+    color: #4D4D4D;
+    font-weight: 600;
+}
+
+.Cv-about p:nth-child(2) {
+    font-size: 16px;
+    line-height: 27px;
+    color: #F7F7F7;
+}
+
+.Cv-buttons {
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+    width: 100%;
+    padding: 0 22px;
+}

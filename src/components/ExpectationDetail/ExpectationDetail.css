@@ -1,0 +1,36 @@
+.ExpectationDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5px 17px;
+    height: 110px;
+    border-right: 1px solid #292A2B;
+}
+
+.ExpectationDetails:nth-child(1) {
+    padding-left: 0;
+    width: 260px;
+}
+
+.ExpectationDetails:nth-child(2) {
+    width: 260px;
+}
+
+.ExpectationDetails:nth-child(3) {
+    width: 260px;
+}
+
+.ExpectationDetails:last-child {
+    border-right: 0;
+}
+
+p.Title {
+    font-size: 14px;
+    color: var(--fields-font-color);
+    letter-spacing: -.4px;
+}
+
+p.Expected {
+    font-size: 16px;
+    font-weight: bold;
+}

@@ -1,0 +1,38 @@
+:root {
+    --cv-wrapper-width: 1430px;
+    --go-back-width: 92px;
+}
+
+body {
+    background-color: var(--main-bgcolor);
+}
+
+.Cv {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #222224;
+    width: 100vw;
+    min-height: 100vh;
+    overflow-y: scroll;
+}
+
+.wrapper {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    margin-top: 100px;
+}
+
+.goBack {
+    width: var(--go-back-width);
+    position: absolute;
+    left: -92px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: bold;
+}

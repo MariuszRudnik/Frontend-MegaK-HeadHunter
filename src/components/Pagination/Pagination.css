@@ -1,0 +1,64 @@
+.Pagination {
+    display: flex;
+    max-width: 1430px;
+    margin: 0 auto;
+    justify-content: flex-end;
+    column-gap: 20px;
+    padding: 40px 0;
+}
+
+.Pagination__select,
+.Pagination__prevNext {
+    display: flex;
+    align-items: center;
+    column-gap: 13px;
+    color: #F7F7F7;
+    font-size: 16px;
+}
+
+.select {
+    padding: 2px;
+    font-size: 12px;
+}
+
+.option, .baseOption {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 31px;
+    height: 24px;
+    background-color: #F7F7F7;
+    border: 1px solid #CFCFCF;
+    color: #333333;
+    font-size: 12px;
+    margin: 0;
+    cursor: default;
+    transition: .4s;
+    overflow: hidden;
+}
+
+.options {
+    flex-direction: column;
+    position: absolute;
+    height: 0;
+    transition: .6s;
+    overflow: hidden;
+}
+
+.options.active {
+    height: 48px;
+    overflow: hidden;
+}
+
+.btn {
+    width: 32px;
+    height: 32px;
+    border: none;
+    color: #333333;
+    background-color: #666666;
+    cursor: pointer;
+}
+
+.btn.active {
+    background-color: #CFCFCF;
+}

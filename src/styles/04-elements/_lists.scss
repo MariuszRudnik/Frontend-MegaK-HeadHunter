@@ -1,0 +1,20 @@
+a{
+  color: white;
+  font-weight: bold;
+}
+
+.e-addList{
+  color: white;
+  width: 300px;
+  word-wrap: break-word;
+  list-style-type: none;
+
+  &__remove{
+    color: $redX1;
+
+    &:hover{
+      color: $redX3;
+      text-decoration: underline;
+    }
+  }
+}

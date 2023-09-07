@@ -1,0 +1,27 @@
+.register{
+  &__wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  &__form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  &__h1{
+    color: $white;
+    font-weight: bold;
+    text-align: center;
+  }
+  &__wrapper-button{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 5px;
+    width: 370px;
+  }
+}

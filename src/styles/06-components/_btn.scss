@@ -1,0 +1,25 @@
+.c-btn {
+  width: 91px;
+  height: 39px;
+  background: #E02735 0% 0% no-repeat padding-box;
+  color: #F7F7F7;
+  border-radius: 0;
+  border: none;
+  transition-property: background;
+  transition-duration: 0.5s;
+  &:hover{
+    background-color: $redX4;
+  }
+  &__link{
+    margin: 20px 10px 10px 10px;
+    text-decoration: none;
+    background: #E02735 0% 0% no-repeat padding-box;
+    padding: 10px;
+    &.active{
+      background-color: $grayX1;
+    }
+    &:hover{
+      background-color: $redX4;
+    }
+  }
+}
